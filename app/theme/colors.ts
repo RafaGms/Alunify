@@ -1,0 +1,56 @@
+const opacity = {
+   p00: '00',
+   p05: '0D',
+   p10: '1A',
+   p15: '26',
+   p20: '33',
+   p25: '40',
+   p30: '4D',
+   p35: '59',
+   p40: '66',
+   p45: '73',
+   p50: '8C',
+   p55: '8C',
+   p60: '99',
+   p65: 'A6',
+   p70: 'B3',
+   p75: 'BF',
+   p80: 'CC',
+   p85: 'D9',
+   p90: 'E6',
+   p95: 'F2',
+   p100: 'FF',
+}
+
+const grays = {
+   gray100: '#F8F8F8',
+   gray200: '#E4E4E4',
+   gray300: '#CFCFCF',
+   gray400: '#BBBBBB',
+   gray500: '#A7A7A7',
+   gray600: '#929292',
+   gray700: '#7E7E7E',
+   gray800: '#696969',
+   gray900: '#555555',
+}
+
+export const colors = {
+   green: {
+      primary: '#CDFB47',
+      light: '#B8E63F',
+      dark: '#5E821D',
+   },
+   background: {
+      primary: '#191919',
+      secondary: '#000000',
+   },
+   none: 'transparent',
+   neutral: '#c6c6c6',
+   confirm: '#16C79A',
+   error: '#EF4F4F',
+   warning: '#FFC107',
+   white: '#FFFFFF',
+   black: '#000000',
+   opacity,
+   grays,
+}
